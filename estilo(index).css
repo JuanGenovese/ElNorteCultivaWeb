@@ -36,6 +36,16 @@ header {
    flex-grow: 2;
 }
 
+.header-div__tit a {
+   color: #cf5f3c;
+   text-decoration: none;
+}
+
+.header-div__tit a:hover {
+   color:#f1744d;
+   transition: 1s;
+}
+
 .header-div__search {
    padding: 20px;
    display: inline-flex;
@@ -106,10 +116,11 @@ header {
 }
 
 .header-list li a:hover {
-   padding: 5px 10px;
-   background: #fff;
-   color: #000;
-   border-radius: 15px;
+   padding: 10px 15px;
+   background: rgb(35, 35, 35);
+   color:#ef7b58;
+   border-radius: 20px;
+   border-bottom: #f1744d;
 }
 
 .HOLABIENVENIDOS {
