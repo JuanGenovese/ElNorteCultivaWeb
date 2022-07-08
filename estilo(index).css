@@ -30,9 +30,10 @@ header {
 }
 
 .header-div__h1 {
+   font-size: x-large;
    padding: 20px;
    width: 33vh;
-   flex-grow: 1;
+   flex-grow: 2;
 }
 
 .header-div__search {
@@ -59,9 +60,9 @@ header {
 }
 
 .header-div__search--ir {
-   display: inline-flex;
+   display: inline-block;
    width: 30px;
-   background: rgb(35, 35, 35);
+   background: rgb(50, 50, 50);
    color: #cf5f3c;
    border: none;
    border-bottom: 2px solid #cf5f3c;
@@ -70,11 +71,21 @@ header {
 
 }
 
+.header-div__search--ir:hover {
+   background: rgb(25, 25, 25);
+   transition: 0.5s;
+}
+
+.header-div__search--ir:active {
+   background: rgb(89, 89, 89);
+   transition: 0s;
+}
+
 .header-nav {
-   padding: 20px;
+   padding: 0;
    display: inline-block;
    width: 33vh;
-   flex-grow: 1;
+   flex-grow: 2;
 }
 
 .header-list {
