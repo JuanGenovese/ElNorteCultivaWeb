@@ -188,21 +188,48 @@ header {
 
 }
 
-.tit-experiencia {
+.experiencia {
    display: flex;
    height: 100vh;
    width: 100vw;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    color: #e6dcd4;
 
 }
 
-.tit-experiencia h2 {
+.experiencia-tit{
    font-size: 50px;
+   text-align: center;
+   padding: 20px;
+   margin: 100px;
 }
 
-.tit-experiencia img {
+.experiencia-imagenes {
+   display: flex;
+   align-items: center;
+   padding: 30px;
+}
+
+.experiencia-imagenes--1 {
    height: 256px;
    width: 256px;
+   transition: 0.5s;
+}
+
+.experiencia-imagenes--1:hover {
+   height: 280px;
+   width: 280px;
+}
+
+.experiencia-imagenes--2 {
+   height: 287px;
+   width: 273px;
+   transition: 0.5s;
+}
+
+.experiencia-imagenes--2:hover {
+   height: 312px;
+   width: 298px;
 }
